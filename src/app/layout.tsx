@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
-import { ReactNode } from 'react';
+import { ReactNode, useMemo } from 'react';
+import { GTomyProvider } from 'gtomy-lib';
 
 import './globals.css';
 
@@ -11,9 +12,21 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: Readonly<{ children: ReactNode }>) {
+  const config = useMemo(
+    () => ({
+      appName: 'main',
+      appDisplayName: 'GTomy',
+      themes: ['corporate', 'business'],
+      nextJs: true,
+    }),
+    []
+  );
+
   return (
     <html lang="en">
-      <body className="text-base text-base-content">{children}</body>
+      <body className="text-base text-base-content">
+        <GTomyProvider config={config}>{children}</GTomyProvider>
+      </body>
     </html>
   );
 }
