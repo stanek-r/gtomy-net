@@ -10,16 +10,14 @@
     "start": "next start"
   },
   "dependencies": {
-    "gtomy-lib": "2.0.0-rc.4",
+    "gtomy-lib": "2.0.0-rc.5",
     "next": "^15.1.1",
-    "pg": "^8.13.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@types/node": "^20",
-    "@types/pg": "^8.11.10",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "daisyui": "^4.12.22",
