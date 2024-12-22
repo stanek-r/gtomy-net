@@ -2,6 +2,8 @@ import { getTestTableData } from '@/lib/requests';
 import { DbElement } from '@/components/DbElement';
 import { InsertComponent } from '@/components/InsertComponent';
 
+export const revalidate = 3600;
+
 export default async function App() {
   const data = await getTestTableData();
 
