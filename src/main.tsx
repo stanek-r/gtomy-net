@@ -3,6 +3,9 @@ import { createRoot } from 'react-dom/client';
 import './index.css';
 import { routeTree } from './routeTree.gen';
 import { createRouter, RouterProvider } from '@tanstack/react-router';
+import ReactGA from 'react-ga4';
+
+ReactGA.initialize(import.meta.env.VITE_GA_MEASUREMENT_ID);
 
 const router = createRouter({ routeTree });
 
