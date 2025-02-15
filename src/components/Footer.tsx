@@ -2,12 +2,16 @@ export function Footer() {
   return (
     <footer className="footer sm:footer-horizontal bg-base-300 text-base-content p-10">
       <nav>
-        <h6 className="footer-title">Projekty</h6>
-        <a className="link link-hover">Mythicraft</a>
-        <a className="link link-hover">GallerYeet</a>
+        <span className="footer-title">Projekty</span>
+        <a className="link link-hover" href="https://mythicraft.net">
+          Mythicraft
+        </a>
+        <a className="link link-hover" href="https://galleryeet.net">
+          GallerYeet
+        </a>
       </nav>
       <nav>
-        <h6 className="footer-title">Sociální sítě</h6>
+        <span className="footer-title">Sociální sítě</span>
         <div className="grid grid-flow-col gap-4">
           <a href="https://bsky.app/profile/gtomy.net" title="Bluesky">
             <svg
