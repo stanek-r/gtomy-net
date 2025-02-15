@@ -1,9 +1,9 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
-import './index.css';
-import { routeTree } from './routeTree.gen';
 import { createRouter, RouterProvider } from '@tanstack/react-router';
+import { routeTree } from '@/routeTree.gen.ts';
 import ReactGA from 'react-ga4';
+import '@/index.css';
 
 const gaMeasurementId = import.meta.env.VITE_GA_MEASUREMENT_ID;
 if (gaMeasurementId) {

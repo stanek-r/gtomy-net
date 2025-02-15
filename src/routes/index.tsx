@@ -8,7 +8,7 @@ export const Route = createFileRoute('/')({
 function Index() {
   return (
     <>
-      <section className="hero text-center relative block" style={{ backgroundImage: 'url(/imgs/banner.jpg)' }}>
+      <section className="hero text-center relative block" style={{ backgroundImage: 'url(/imgs/banner.webp)' }}>
         <div className="hero-overlay absolute bg-opacity-60"></div>
         <div className="hero-content relative py-16 text-neutral-content">
           <h1 className="text-7xl font-bold">GTomy</h1>
@@ -30,7 +30,7 @@ function Index() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-8">
           <a href="https://mythicraft.net" className="shadow-lg rounded-lg overflow-hidden hover:opacity-75">
-            <LazyLoadImage src="/imgs/mythicraft.jpg" alt="Mythicraft banner" className="w-full h-48 object-cover" />
+            <LazyLoadImage src="/imgs/mythicraft.webp" alt="Mythicraft banner" className="w-full h-48 object-cover" />
             <div className="p-4">
               <p className="text-lg underline">Mythicraft</p>
             </div>
