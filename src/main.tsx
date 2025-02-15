@@ -5,7 +5,10 @@ import { routeTree } from './routeTree.gen';
 import { createRouter, RouterProvider } from '@tanstack/react-router';
 import ReactGA from 'react-ga4';
 
-ReactGA.initialize(import.meta.env.VITE_GA_MEASUREMENT_ID);
+const gaMeasurementId = import.meta.env.VITE_GA_MEASUREMENT_ID;
+if (gaMeasurementId) {
+  ReactGA.initialize(gaMeasurementId);
+}
 
 const router = createRouter({ routeTree });
 
@@ -23,4 +26,9 @@ if (!rootElement.innerHTML) {
       <RouterProvider router={router} />
     </StrictMode>
   );
+
+  router.history.subscribe(() => {
+    const pathname = router.history.location.pathname;
+    ReactGA.send({ hitType: 'pageview', page: pathname, title: window.document.title });
+  });
 }

@@ -2,7 +2,7 @@ import { createRootRoute, Link, Outlet } from '@tanstack/react-router';
 
 export const Route = createRootRoute({
   component: () => (
-    <>
+    <div className="flex flex-col min-h-screen">
       <div className="navbar bg-base-300 text-base-content">
         <div className="flex-1">
           <Link to="/" className="btn btn-ghost text-xl">
@@ -11,22 +11,15 @@ export const Route = createRootRoute({
           </Link>
         </div>
       </div>
-      <div className="max-w-7xl mx-auto p-4 flex flex-col gap-y-16">
+      <main className="max-w-7xl mx-auto px-4 pt-8 pb-40 flex flex-col gap-y-16 flex-1">
         <Outlet />
-      </div>
+      </main>
       <footer className="footer sm:footer-horizontal bg-base-300 text-base-content p-10">
         <nav>
           <h6 className="footer-title">Projekty</h6>
           <a className="link link-hover">Mythicraft</a>
           <a className="link link-hover">GallerYeet</a>
         </nav>
-        {/*<nav>*/}
-        {/*  <h6 className="footer-title">Company</h6>*/}
-        {/*  <a className="link link-hover">About us</a>*/}
-        {/*  <a className="link link-hover">Contact</a>*/}
-        {/*  <a className="link link-hover">Jobs</a>*/}
-        {/*  <a className="link link-hover">Press kit</a>*/}
-        {/*</nav>*/}
         <nav>
           <h6 className="footer-title">Sociální sítě</h6>
           <div className="grid grid-flow-col gap-4">
@@ -77,7 +70,7 @@ export const Route = createRootRoute({
           </div>
         </nav>
       </footer>
-    </>
+    </div>
   ),
   notFoundComponent: () => {
     return (

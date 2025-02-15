@@ -44,7 +44,7 @@ function Index() {
         </div>
       </section>
       <div className="divider"></div>
-      <section className="text-center mb-40 space-y-8">
+      <section className="text-center space-y-8">
         <div className="flex flex-col">
           <h2 className="text-3xl font-semibold">Streamy a videa</h2>
           <p className="text-lg">
