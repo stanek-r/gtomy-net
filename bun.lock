@@ -7,7 +7,7 @@
         "@tailwindcss/vite": "^4.0.6",
         "@tanstack/react-router": "^1.102.5",
         "babel-plugin-react-compiler": "^19.0.0-beta-30d8a17-20250209",
-        "gtomy-lib": "2.0.0-rc.13",
+        "gtomy-lib": "^2.0.0",
         "react": "^19.0.0",
         "react-dom": "^19.0.0",
         "react-ga4": "^2.1.0",
@@ -514,7 +514,7 @@
 
     "graphemer": ["graphemer@1.4.0", "", {}, "sha512-EtKwoO6kxCL9WO5xipiHTZlSzBm7WLT627TqC/uVRd0HKmq8NXyebnNYxDoBi7wt8eTWrUrKXCOVaFq9x1kgag=="],
 
-    "gtomy-lib": ["gtomy-lib@2.0.0-rc.13", "", { "dependencies": { "@heroicons/react": "2.2.0", "@radix-ui/react-dialog": "^1.1.6", "axios": "^1.7.9", "js-file-download": "^0.4.12", "react": "^19.0.0", "react-dom": "^19.0.0", "react-hot-toast": "^2.5.2", "react-lazy-load-image-component": "^1.6.3", "tailwind-merge": "^3.0.1" } }, "sha512-DjKXo06+zXXeUMeLVOCOsoWMUeVtjkKQxDcIGQI/SzfXTuGwM9B4xn8VoFN11HvRg65RdJdMun+42ehB3m8QhQ=="],
+    "gtomy-lib": ["gtomy-lib@2.0.0", "", { "dependencies": { "@heroicons/react": "2.2.0", "@radix-ui/react-dialog": "^1.1.6", "axios": "^1.7.9", "js-file-download": "^0.4.12", "react": "^19.0.0", "react-dom": "^19.0.0", "react-hot-toast": "^2.5.2", "react-lazy-load-image-component": "^1.6.3", "tailwind-merge": "^3.0.1" } }, "sha512-o18Zuq6D9l7clAMf53WK3ljQULF26dQFspncYJs2uuG0gg5Okt59x+l6Q5wz40BibW/vtkZ8ybdsFS2kNi327Q=="],
 
     "has-flag": ["has-flag@4.0.0", "", {}, "sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ=="],
 
