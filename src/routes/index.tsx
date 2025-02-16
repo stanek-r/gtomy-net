@@ -1,5 +1,6 @@
 import { createFileRoute } from '@tanstack/react-router';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
+import { Button } from 'gtomy-lib';
 
 export const Route = createFileRoute('/')({
   component: Index,
@@ -53,12 +54,12 @@ function Index() {
           </p>
         </div>
         <div className="flex justify-center gap-4">
-          <a href="https://www.twitch.tv/gtomyasek" className="btn btn-lg">
+          <Button as="a" href="https://www.twitch.tv/gtomyasek" size="lg">
             Twitch
-          </a>
-          <a href="https://youtube.com/gtomy" className="btn btn-lg">
+          </Button>
+          <Button as="a" href="https://youtube.com/gtomy" size="lg">
             Youtube
-          </a>
+          </Button>
         </div>
       </section>
     </>

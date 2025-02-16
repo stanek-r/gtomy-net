@@ -10,7 +10,7 @@ export function Footer() {
           GallerYeet
         </a>
       </nav>
-      <nav>
+      <nav className="sm:justify-self-end">
         <span className="footer-title">Sociální sítě</span>
         <div className="grid grid-flow-col gap-4">
           <a href="https://bsky.app/profile/gtomy.net" title="Bluesky">
