@@ -17,7 +17,7 @@ function Index() {
       </section>
       <section className="text-center space-y-4">
         <div className="flex flex-col">
-          <h2 className="text-3xl font-semibold mb-4">O mě</h2>
+          <h2 className="text-3xl font-semibold mb-4">O mně</h2>
           <p className="text-lg">
             Ahoj, jsem GTomy a toto je můj web. Jsem programátor a tento web je místem, kde budu sdílet své projekty.
           </p>
