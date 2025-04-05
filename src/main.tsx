@@ -7,7 +7,7 @@ import '@/index.css';
 
 const gaMeasurementId = import.meta.env.VITE_GA_MEASUREMENT_ID;
 if (gaMeasurementId) {
-  ReactGA.initialize(gaMeasurementId, { gaOptions: { cookieDomain: window.location.hostname } });
+  ReactGA.initialize(gaMeasurementId);
 }
 
 const router = createRouter({ routeTree });

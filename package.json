@@ -1,7 +1,7 @@
 {
   "name": "gtomy-net",
   "private": true,
-  "version": "2.0.0",
+  "version": "2.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -13,8 +13,8 @@
   "dependencies": {
     "@tailwindcss/vite": "^4.0.6",
     "@tanstack/react-router": "^1.102.5",
-    "babel-plugin-react-compiler": "^19.0.0-beta-30d8a17-20250209",
-    "gtomy-lib": "^2.0.0",
+    "babel-plugin-react-compiler": "^19.0.0-beta-e993439-20250328",
+    "gtomy-lib": "^2.2.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-ga4": "^2.1.0",
@@ -30,10 +30,10 @@
     "@types/react-dom": "^19.0.3",
     "@types/react-lazy-load-image-component": "^1.6.4",
     "@vitejs/plugin-react": "^4.3.4",
-    "daisyui": "^5.0.0-beta.7",
+    "daisyui": "^5.0.12",
     "eslint": "^9.19.0",
     "eslint-plugin-prettier": "^5.2.3",
-    "eslint-plugin-react-compiler": "^19.0.0-beta-30d8a17-20250209",
+    "eslint-plugin-react-compiler": "^19.0.0-beta-e993439-20250328",
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.18",
     "globals": "^15.14.0",
