@@ -3,8 +3,8 @@ export function Footer() {
     <footer className="footer sm:footer-horizontal bg-base-300 text-base-content p-10">
       <nav>
         <span className="footer-title">Projekty</span>
-        <a className="link link-hover" href="https://mythicraft.net">
-          Mythicraft
+        <a className="link link-hover" href="https://mythranel.net">
+          Mythranel
         </a>
         <a className="link link-hover" href="https://galleryeet.net">
           GallerYeet

@@ -30,10 +30,10 @@ function Index() {
           <p className="text-lg">Zde jsou odkazy na některé z mých projektů, na kterých pracuji/pracoval.</p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-8">
-          <a href="https://mythicraft.net" className="shadow-lg rounded-lg overflow-hidden hover:opacity-75">
-            <LazyLoadImage src="/imgs/mythicraft.webp" alt="Mythicraft banner" className="w-full h-48 object-cover" />
+          <a href="https://mythranel.net" className="shadow-lg rounded-lg overflow-hidden hover:opacity-75">
+            <LazyLoadImage src="/imgs/mythranel.webp" alt="Mythranel banner" className="w-full h-48 object-cover" />
             <div className="p-4">
-              <p className="text-lg underline">Mythicraft</p>
+              <p className="text-lg underline">Mythranel</p>
             </div>
           </a>
           <a href="https://galleryeet.net" className="shadow-lg rounded-lg overflow-hidden hover:opacity-75">
