@@ -14,7 +14,7 @@
     "@tailwindcss/vite": "^4.0.6",
     "@tanstack/react-router": "^1.102.5",
     "babel-plugin-react-compiler": "^19.0.0-beta-e993439-20250328",
-    "gtomy-lib": "^2.2.2",
+    "gtomy-lib": "^2.2.5",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-ga4": "^2.1.0",
